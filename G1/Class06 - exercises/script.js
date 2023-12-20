@@ -121,6 +121,38 @@ function shopping() {
             alert('Thanks for shopping with us!')
         }
     }
+<<<<<<< Updated upstream
+=======
+
+    while(!chosenTypeOfColor) {
+        let color = prompt(`What type of color do you want the ${chosenTypeOfClothing} to be in?`);
+
+        switch (color) {
+            case 'white':
+            case 'black':
+            case 'yellow':
+            case 'green':
+                chosenTypeOfColor = color
+            default:
+                alert(`We don't have ${color}, please choose another color.`)
+        }       
+    }
+    while(!chosenTypeOf) {
+        let color = prompt(`What type of color do you want the ${chosenTypeOfClothing} to be in?`);
+
+        switch (color) {
+            case 'white':
+            case 'black':
+            case 'yellow':
+            case 'green':
+                chosenTypeOfColor = color
+            default:
+                alert(`We don't have ${color}, please choose another color.`)
+        }       
+    }
+    
+    
+>>>>>>> Stashed changes
 }
 
 shopping();
